@@ -1,0 +1,4474 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://example.org/eudamed-ontology", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "undefined" : "MedDevOnt - European Medical Device Catalogue Ontology"
+    },
+    "iri" : "http://example.org/eudamed-ontology",
+    "version" : "1.0",
+    "author" : [ "Laura Palau" ],
+    "description" : {
+      "undefined" : "An ontology modelling the European catalogue of high-risk medical devices and in vitro diagnostic devices under MDR (EU 2017/745) and IVDR (EU 2017/746)."
+    },
+    "labels" : {
+      "undefined" : "MedDevOnt"
+    },
+    "other" : {
+      "versionIRI" : [ {
+        "identifier" : "versionIRI",
+        "language" : "undefined",
+        "value" : "http://example.org/eudamed-ontology/1.0",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Laura Palau",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2026-04-27",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "This ontology is distributed under a Creative Commons Attribution 4.0 International License.",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "eudamed",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "Universitat Oberta de Catalunya (UOC)",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2026-04-27",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://example.org/eudamed-ontology#",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "undefined",
+        "value" : "MedDevOnt provides a formal semantic representation of the EUDAMED catalogue, covering medical devices, manufacturers, risks, incidents and field safety corrective actions",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "MedDevOnt - European Medical Device Catalogue Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "1",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "238",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://example.org/eudamed-ontology#High",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "High",
+      "undefined" : "High"
+    },
+    "comment" : {
+      "undefined" : "Probability level indicating that the risk event is likely to occur under normal conditions of use."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ActiveImplant",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ActiveImplant",
+      "undefined" : "Active Implant"
+    },
+    "comment" : {
+      "undefined" : "An active device intended to be totally or partially introduced into the human body and to remain there after the procedure."
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#MDR",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "MDR",
+      "undefined" : "Medical Device Regulation"
+    },
+    "comment" : {
+      "undefined" : "Regulation (EU) 2017/745 on medical devices, classifying devices into classes I, IIa, IIb and III."
+    },
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassIII",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "undefined" : "Class III"
+    },
+    "comment" : {
+      "undefined" : "Highest risk class under MDR (EU 2017/745). Devices are subject to the most stringent conformity assessment, including clinical evaluation."
+    },
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Critical",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Critical",
+      "undefined" : "Critical"
+    },
+    "comment" : {
+      "undefined" : "Severity level indicating a risk that could result in death or permanent serious injury."
+    },
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DeviceSafety",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "DeviceSafety",
+      "undefined" : "Device Safety"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events related to intrinsic safety hazards of the device, including cybersecurity threats."
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Recall",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Recall",
+      "undefined" : "Recall"
+    },
+    "comment" : {
+      "undefined" : "An action to remove or correct a distributed device that presents a risk to health or does not conform to regulations."
+    },
+    "id" : "50",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassD",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassD",
+      "undefined" : "Class D"
+    },
+    "comment" : {
+      "undefined" : "Highest risk class under IVDR (EU 2017/746). Devices pose the highest risk, such as tests for HIV or blood-group typing."
+    },
+    "id" : "47",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassC",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassC",
+      "undefined" : "Class C"
+    },
+    "comment" : {
+      "undefined" : "Medium-high risk class under IVDR (EU 2017/746). Devices require notified body intervention for conformity assessment."
+    },
+    "id" : "49",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ActionType",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "58", "50", "59", "60" ],
+    "label" : {
+      "IRI-based" : "ActionType",
+      "undefined" : "Action Type"
+    },
+    "subClasses" : [ "58", "50", "59", "60" ],
+    "comment" : {
+      "undefined" : "The type of field safety corrective action taken by a manufacturer in response to a safety incident."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassI",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassI",
+      "undefined" : "Class I"
+    },
+    "comment" : {
+      "undefined" : "Lowest risk class under MDR (EU 2017/745). Devices pose minimal risk to patients and users."
+    },
+    "id" : "57",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassB",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassB",
+      "undefined" : "Class B"
+    },
+    "comment" : {
+      "undefined" : "Low-medium risk class under IVDR (EU 2017/746). Devices require limited notified body involvement."
+    },
+    "id" : "41",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassA",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassA",
+      "undefined" : "Class A"
+    },
+    "comment" : {
+      "undefined" : "Lowest risk class under IVDR (EU 2017/746). Devices pose minimal risk and include general laboratory instruments."
+    },
+    "id" : "45",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Manufacturer",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/eudamed-ontology#MAN-010",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 010"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-010",
+        "undefined" : "MAN-010"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-011",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 011"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-011",
+        "undefined" : "MAN-011"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-001",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 001"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-001",
+        "undefined" : "MAN-001"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-012",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 012"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-012",
+        "undefined" : "MAN-012"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-013",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 013"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-013",
+        "undefined" : "MAN-013"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-002",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 002"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-002",
+        "undefined" : "MAN-002"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-003",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 003"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-003",
+        "undefined" : "MAN-003"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-014",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 014"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-014",
+        "undefined" : "MAN-014"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-015",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 015"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-015",
+        "undefined" : "MAN-015"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-004",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 004"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-004",
+        "undefined" : "MAN-004"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-005",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 005"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-005",
+        "undefined" : "MAN-005"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-006",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 006"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-006",
+        "undefined" : "MAN-006"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-007",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 007"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-007",
+        "undefined" : "MAN-007"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-008",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 008"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-008",
+        "undefined" : "MAN-008"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#MAN-009",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Manufacturer 009"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-009",
+        "undefined" : "MAN-009"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A legal entity responsible for the design, manufacture and placing on the market of a medical device, registered in EUDAMED."
+    },
+    "id" : "69"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#CybersecurityRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CybersecurityRisk",
+      "undefined" : "Cybersecurity Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk arising from exploitable software vulnerabilities enabling unauthorised access or manipulation of device functions."
+    },
+    "id" : "74",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#IncidentType",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "84", "85" ],
+    "label" : {
+      "IRI-based" : "IncidentType",
+      "undefined" : "Incident Type"
+    },
+    "subClasses" : [ "84", "85" ],
+    "comment" : {
+      "undefined" : "The classification of a reported incident based on its actual or potential impact on patient safety."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#NearMissIncident",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "NearMissIncident",
+      "undefined" : "Near-Miss Incident"
+    },
+    "comment" : {
+      "undefined" : "An incident where a malfunction occurred but did not lead to patient harm, though it had the potential to do so."
+    },
+    "id" : "84",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#MalfunctionRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "MalfunctionRisk",
+      "undefined" : "Malfunction Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk arising from the device failing to perform its intended function correctly."
+    },
+    "id" : "86",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ImplantableActiveDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ImplantableActiveDevice",
+      "undefined" : "Implantable Active Device"
+    },
+    "comment" : {
+      "undefined" : "A device that combines both active and implantable characteristics, requiring energy to \noperate while being implanted in the body."
+    },
+    "id" : "21",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DiagnosticRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "DiagnosticRisk",
+      "undefined" : "Diagnostic Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of incorrect diagnostic output from an in vitro diagnostic device, including false positive or false negative results."
+    },
+    "id" : "89",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#UserNotice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "undefined" : "User Notice"
+    },
+    "comment" : {
+      "undefined" : "A written communication sent to users providing updated instructions, warnings or procedural changes."
+    },
+    "id" : "59",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#RiskType",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "89", "95", "96", "97", "98", "86", "99", "74", "100", "101" ],
+    "label" : {
+      "IRI-based" : "RiskType",
+      "undefined" : "Risk Type"
+    },
+    "subClasses" : [ "89", "95", "96", "97", "98", "86", "99", "74", "100", "101" ],
+    "comment" : {
+      "undefined" : "The specific type of risk mechanism associated with a hazard, following IMDRF risk terminology."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Probability",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "0", "77", "73" ],
+    "label" : {
+      "IRI-based" : "Probability",
+      "undefined" : "Probability"
+    },
+    "subClasses" : [ "0", "77", "73" ],
+    "comment" : {
+      "undefined" : "The likelihood of a risk event occurring during the expected lifetime of the device."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#HighRiskDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighRiskDevice",
+      "undefined" : "High Risk Device"
+    },
+    "comment" : {
+      "undefined" : "Rule - Devices classified under risk class III or class D are automatically considered high-risk devices."
+    },
+    "id" : "105"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DevicePerformance",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "DevicePerformance",
+      "undefined" : "Device Performance"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events related to suboptimal or unintended device performance without complete failure."
+    },
+    "id" : "106",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Low",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Low",
+      "undefined" : "Low"
+    },
+    "comment" : {
+      "undefined" : "Probability level indicating that the risk event is unlikely to occur under normal conditions of use."
+    },
+    "id" : "73",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ContaminationRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ContaminationRisk",
+      "undefined" : "Contamination Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of reagent or device contamination leading to systematic errors or patient harm."
+    },
+    "id" : "101",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#SeriousIncident",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "undefined" : "Serious Incident"
+    },
+    "comment" : {
+      "undefined" : "An incident that directly or indirectly led to death, serious deterioration in health, or serious public health threat."
+    },
+    "id" : "85",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ActiveFSCAManufacturer",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveFSCAManufacturer",
+      "undefined" : "Active FSCA Manufacturer"
+    },
+    "comment" : {
+      "undefined" : "Rule - Manufacturers linked to devices with incidents that have open FSCAs are classified as active FSCA manufacturers."
+    },
+    "id" : "126"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#SafetyAlert",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "undefined" : "Safety Alert"
+    },
+    "comment" : {
+      "undefined" : "A communication issued to healthcare professionals warning of a safety risk and providing updated instructions."
+    },
+    "id" : "58",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DiagnosticError",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "DiagnosticError",
+      "undefined" : "Diagnostic Error"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events where an in vitro diagnostic device produces incorrect results leading to misdiagnosis."
+    },
+    "id" : "127",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#InjuryRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InjuryRisk",
+      "undefined" : "Injury Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of direct physical harm to a patient or user caused by the device."
+    },
+    "id" : "96",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#InSituCorrection",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InSituCorrection",
+      "undefined" : "In Situ Correction"
+    },
+    "comment" : {
+      "undefined" : "A correction performed on a device at the location where it is installed or in use, without requiring its removal."
+    },
+    "id" : "60",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Risk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "undefined" : "Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/eudamed-ontology#RSK-006",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 006"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-006",
+        "undefined" : "RSK-006"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-017",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 017"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-017",
+        "undefined" : "RSK-017"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-018",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 018"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-018",
+        "undefined" : "RSK-018"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-007",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 007"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-007",
+        "undefined" : "RSK-007"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-019",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 019"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-019",
+        "undefined" : "RSK-019"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-008",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 008"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-008",
+        "undefined" : "RSK-008"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-009",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 009"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-009",
+        "undefined" : "RSK-009"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-013",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 013"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-013",
+        "undefined" : "RSK-013"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-002",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 002"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-002",
+        "undefined" : "RSK-002"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-014",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 014"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-014",
+        "undefined" : "RSK-014"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-003",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 003"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-003",
+        "undefined" : "RSK-003"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-015",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 015"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-015",
+        "undefined" : "RSK-015"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-004",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 004"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-004",
+        "undefined" : "RSK-004"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-005",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 005"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-005",
+        "undefined" : "RSK-005"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-016",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 016"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-016",
+        "undefined" : "RSK-016"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-020",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 020"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-020",
+        "undefined" : "RSK-020"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-010",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 010"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-010",
+        "undefined" : "RSK-010"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-011",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 011"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-011",
+        "undefined" : "RSK-011"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-001",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 001"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-001",
+        "undefined" : "RSK-001"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#RSK-012",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Risk 012"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-012",
+        "undefined" : "RSK-012"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A potential hazard associated with a medical device, classified according to the IMDRF nomenclature."
+    },
+    "id" : "67"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#SingleUseDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SingleUseDevice",
+      "undefined" : "Single-Use Device"
+    },
+    "comment" : {
+      "undefined" : "A device intended to be used on one individual during a single procedure and then discarded."
+    },
+    "id" : "19",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Severity",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "79", "81", "34" ],
+    "label" : {
+      "IRI-based" : "Severity",
+      "undefined" : "Severity"
+    },
+    "subClasses" : [ "79", "81", "34" ],
+    "comment" : {
+      "undefined" : "The degree of harm that a risk event could cause to a patient, user or third party."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Device",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device",
+      "undefined" : "Medical Device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/eudamed-ontology#DEV-021",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 021"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-021",
+        "undefined" : "DEV-021"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-022",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 022"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-022",
+        "undefined" : "DEV-022"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-023",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 023"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-023",
+        "undefined" : "DEV-023"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-001",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 001"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001",
+        "undefined" : "DEV-001"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-024",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 024"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-024",
+        "undefined" : "DEV-024"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-002",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 002"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-002",
+        "undefined" : "DEV-002"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-020",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 020"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-020",
+        "undefined" : "DEV-020"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-018",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 018"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-018",
+        "undefined" : "DEV-018"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-019",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 019"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-019",
+        "undefined" : "DEV-019"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-014",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 014"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-014",
+        "undefined" : "DEV-014"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-015",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 015"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-015",
+        "undefined" : "DEV-015"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-016",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 016"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-016",
+        "undefined" : "DEV-016"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-017",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 017"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-017",
+        "undefined" : "DEV-017"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-010",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 010"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-010",
+        "undefined" : "DEV-010"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-011",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 011"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-011",
+        "undefined" : "DEV-011"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-012",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 012"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-012",
+        "undefined" : "DEV-012"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-013",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 013"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-013",
+        "undefined" : "DEV-013"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-007",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 007"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-007",
+        "undefined" : "DEV-007"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-008",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 008"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-008",
+        "undefined" : "DEV-008"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-009",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 009"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-009",
+        "undefined" : "DEV-009"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-025",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 025"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-025",
+        "undefined" : "DEV-025"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-003",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 003"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-003",
+        "undefined" : "DEV-003"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-004",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 004"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-004",
+        "undefined" : "DEV-004"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-005",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 005"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-005",
+        "undefined" : "DEV-005"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#DEV-006",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Device 006"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-006",
+        "undefined" : "DEV-006"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A medical device or in vitro diagnostic device registered in the EUDAMED catalogue under MDR or IVDR regulation."
+    },
+    "id" : "23"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#RiskClass",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "28", "41", "45", "47", "49", "53", "55", "57" ],
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "undefined" : "Risk Class"
+    },
+    "subClasses" : [ "28", "41", "45", "47", "49", "53", "55", "57" ],
+    "comment" : {
+      "undefined" : "The risk classification assigned to a medical device according to its applicable regulatory framework."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#RegulatoryFramework",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "16", "37" ],
+    "label" : {
+      "IRI-based" : "RegulatoryFramework",
+      "undefined" : "Regulatory Framework"
+    },
+    "subClasses" : [ "16", "37" ],
+    "comment" : {
+      "undefined" : "The European regulatory framework under which a medical device is classified and registered."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#IVDR",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "IVDR",
+      "undefined" : "In Vitro Diagnostic Regulation"
+    },
+    "comment" : {
+      "undefined" : "Regulation (EU) 2017/746 on in vitro diagnostic medical devices, classifying devices into classes A, B, C and D."
+    },
+    "id" : "37",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Medium",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Medium",
+      "undefined" : "Medium"
+    },
+    "comment" : {
+      "undefined" : "Probability level indicating that the risk event may occur occasionally under normal conditions of use."
+    },
+    "id" : "77",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#InterferenceRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InterferenceRisk",
+      "undefined" : "Interference Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of electromagnetic or physical interference affecting device performance or diagnostic imaging quality."
+    },
+    "id" : "97",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ActiveDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "undefined" : "Active Device"
+    },
+    "comment" : {
+      "undefined" : "A device whose operation depends on a source of energy other than that generated by the human body or gravity."
+    },
+    "id" : "13",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#InfectionRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InfectionRisk",
+      "undefined" : "Infection Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of microbial contamination or device-related infection at the implantation site or systemically."
+    },
+    "id" : "99",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Open",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Open",
+      "undefined" : "Open"
+    },
+    "comment" : {
+      "undefined" : "Status indicating that the field safety corrective action is currently active and not yet completed."
+    },
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#RadiationRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "RadiationRisk",
+      "undefined" : "Radiation Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk of unintended ionising or non-ionising radiation exposure caused by the device."
+    },
+    "id" : "95",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ImplantableDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "undefined" : "Implantable Device"
+    },
+    "comment" : {
+      "undefined" : "A device intended to be totally or partially introduced into the human body and to remain there after the procedure, without depending on an energy source."
+    },
+    "id" : "15",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#UnresolvedIncident",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UnresolvedIncident",
+      "undefined" : "Unresolved Incident"
+    },
+    "comment" : {
+      "undefined" : "Rule - Serious incidents without corrective actions taken are classified as unresolved incidents."
+    },
+    "id" : "203"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Serious",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Serious",
+      "undefined" : "Serious"
+    },
+    "comment" : {
+      "undefined" : "Severity level indicating a risk that could result in serious but reversible injury or hospitalisation."
+    },
+    "id" : "81",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#SoftwareRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SoftwareRisk",
+      "undefined" : "Software Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk arising from software defects causing incorrect device behaviour, dosing errors or alarm failures."
+    },
+    "id" : "98",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DeviceFailure",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "DeviceFailure",
+      "undefined" : "Device Failure"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events where the device fails to perform its intended function due to electrical, mechanical or software issues."
+    },
+    "id" : "144",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#MaterialRisk",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "MaterialRisk",
+      "undefined" : "Material Risk"
+    },
+    "comment" : {
+      "undefined" : "Risk arising from adverse biological reactions to device materials, including wear debris or metallic ion release."
+    },
+    "id" : "100",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ProductQuality",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ProductQuality",
+      "undefined" : "Product Quality"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events related to contamination, sterility failures or degradation of device components."
+    },
+    "id" : "139",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Status",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "3", "6" ],
+    "label" : {
+      "IRI-based" : "Status",
+      "undefined" : "FSCA Status"
+    },
+    "subClasses" : [ "3", "6" ],
+    "comment" : {
+      "undefined" : "The current status of a field safety corrective action, indicating whether it is still ongoing or has been completed."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#DeviceType",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "8", "11", "13", "15", "19", "21", "149" ],
+    "label" : {
+      "IRI-based" : "DeviceType",
+      "undefined" : "Device Type"
+    },
+    "subClasses" : [ "8", "11", "13", "15", "19", "21", "149" ],
+    "comment" : {
+      "undefined" : "The functional and structural classification of a medical device based on its mode of action and intended use."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Incident",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "undefined" : "Incident"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/eudamed-ontology#INC-016",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 016"
+      },
+      "labels" : {
+        "IRI-based" : "INC-016",
+        "undefined" : "INC-016"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-005",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 005"
+      },
+      "labels" : {
+        "IRI-based" : "INC-005",
+        "undefined" : "INC-005"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-015",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 015"
+      },
+      "labels" : {
+        "IRI-based" : "INC-015",
+        "undefined" : "INC-015"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-004",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 004"
+      },
+      "labels" : {
+        "IRI-based" : "INC-004",
+        "undefined" : "INC-004"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-003",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 003"
+      },
+      "labels" : {
+        "IRI-based" : "INC-003",
+        "undefined" : "INC-003"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-014",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 014"
+      },
+      "labels" : {
+        "IRI-based" : "INC-014",
+        "undefined" : "INC-014"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-002",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 002"
+      },
+      "labels" : {
+        "IRI-based" : "INC-002",
+        "undefined" : "INC-002"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-013",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 013"
+      },
+      "labels" : {
+        "IRI-based" : "INC-013",
+        "undefined" : "INC-013"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-009",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 009"
+      },
+      "labels" : {
+        "IRI-based" : "INC-009",
+        "undefined" : "INC-009"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-008",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 008"
+      },
+      "labels" : {
+        "IRI-based" : "INC-008",
+        "undefined" : "INC-008"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-019",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 019"
+      },
+      "labels" : {
+        "IRI-based" : "INC-019",
+        "undefined" : "INC-019"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-018",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 018"
+      },
+      "labels" : {
+        "IRI-based" : "INC-018",
+        "undefined" : "INC-018"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-007",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 007"
+      },
+      "labels" : {
+        "IRI-based" : "INC-007",
+        "undefined" : "INC-007"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-017",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 017"
+      },
+      "labels" : {
+        "IRI-based" : "INC-017",
+        "undefined" : "INC-017"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-006",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 006"
+      },
+      "labels" : {
+        "IRI-based" : "INC-006",
+        "undefined" : "INC-006"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-001",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 001"
+      },
+      "labels" : {
+        "IRI-based" : "INC-001",
+        "undefined" : "INC-001"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-012",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 012"
+      },
+      "labels" : {
+        "IRI-based" : "INC-012",
+        "undefined" : "INC-012"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-011",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 011"
+      },
+      "labels" : {
+        "IRI-based" : "INC-011",
+        "undefined" : "INC-011"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-010",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 010"
+      },
+      "labels" : {
+        "IRI-based" : "INC-010",
+        "undefined" : "INC-010"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#INC-020",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Incident 020"
+      },
+      "labels" : {
+        "IRI-based" : "INC-020",
+        "undefined" : "INC-020"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A serious incident or near-miss event reported in relation to a specific medical device as required by MDR or IVDR."
+    },
+    "id" : "26"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#InVitroDiagnosticDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InVitroDiagnosticDevice",
+      "undefined" : "In Vitro Diagnostic Device"
+    },
+    "comment" : {
+      "undefined" : "A device intended for the examination of specimens derived from the human body to provide information on physiological or pathological conditions."
+    },
+    "id" : "149",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#RiskCategory",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "disjointUnion" : [ "151", "127", "42", "106", "139", "144" ],
+    "label" : {
+      "IRI-based" : "RiskCategory",
+      "undefined" : "Risk Category"
+    },
+    "subClasses" : [ "151", "127", "42", "106", "139", "144" ],
+    "comment" : {
+      "undefined" : "The high-level grouping of risks according to the nature of the hazard, based on IMDRF terminology."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#CriticalIncident",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CriticalIncident",
+      "undefined" : "Critical Incident"
+    },
+    "comment" : {
+      "undefined" : "Rule - Incidents linked to risks with critical severity are classified as critical incidents."
+    },
+    "id" : "238"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#PatientHarm",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PatientHarm",
+      "undefined" : "Patient Harm"
+    },
+    "comment" : {
+      "undefined" : "Risk category covering events that directly cause or may cause physical injury, infection or adverse reaction in a patient."
+    },
+    "id" : "151",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#SelfTestDevice",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SelfTestDevice",
+      "undefined" : "Self-Test Device"
+    },
+    "comment" : {
+      "undefined" : "An in vitro diagnostic device intended to be used by lay persons in a home environment."
+    },
+    "id" : "11",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassIIb",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassIIb",
+      "undefined" : "Class IIb"
+    },
+    "comment" : {
+      "undefined" : "Medium-high risk class under MDR (EU 2017/745). Devices require more stringent conformity assessment procedures."
+    },
+    "id" : "53",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#ClassIIa",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "ClassIIa",
+      "undefined" : "Class IIa"
+    },
+    "comment" : {
+      "undefined" : "Medium-low risk class under MDR (EU 2017/745). Devices require involvement of a notified body for conformity assessment."
+    },
+    "id" : "55",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Closed",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Closed",
+      "undefined" : "Closed"
+    },
+    "comment" : {
+      "undefined" : "Status indicating that the field safety corrective action has been fully completed and verified."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#Moderate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Moderate",
+      "undefined" : "Moderate"
+    },
+    "comment" : {
+      "undefined" : "Severity level indicating a risk that could result in minor injury or temporary harm not requiring hospitalisation."
+    },
+    "id" : "79",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#FSCA",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FSCA",
+      "undefined" : "Field Safety Corrective Action"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-007",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 007"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-007",
+        "undefined" : "FSCA-007"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-008",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 008"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-008",
+        "undefined" : "FSCA-008"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-005",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 005"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-005",
+        "undefined" : "FSCA-005"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-006",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 006"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-006",
+        "undefined" : "FSCA-006"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-009",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 009"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-009",
+        "undefined" : "FSCA-009"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-010",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 010"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-010",
+        "undefined" : "FSCA-010"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-011",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 011"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-011",
+        "undefined" : "FSCA-011"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-014",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 014"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-014",
+        "undefined" : "FSCA-014"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-003",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 003"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-003",
+        "undefined" : "FSCA-003"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-004",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 004"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-004",
+        "undefined" : "FSCA-004"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-015",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 015"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-015",
+        "undefined" : "FSCA-015"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-001",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 001"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-001",
+        "undefined" : "FSCA-001"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-012",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 012"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-012",
+        "undefined" : "FSCA-012"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-002",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 002"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-002",
+        "undefined" : "FSCA-002"
+      }
+    }, {
+      "iri" : "http://example.org/eudamed-ontology#FSCA-013",
+      "baseIri" : "http://example.org/eudamed-ontology",
+      "comment" : {
+        "undefined" : "Field Safety Corrective Action 013"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-013",
+        "undefined" : "FSCA-013"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A corrective action taken by a manufacturer to reduce the risk of death or serious deterioration in health associated with a medical device."
+    },
+    "id" : "64"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "167",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "168",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "169",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "170",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "171",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "172",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "173",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "174",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "175",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "176",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "180",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "185",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "186",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "187",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "188",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "193",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "194",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "196",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "198",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "199",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "207",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "211",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "212",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "213",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "214",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "215",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "216",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "218",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "219",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "220",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "221",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "222",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "223",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "224",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "250",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "253",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "256",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "rdf:Property"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "9",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "9",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "9",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "9",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedRegulatoryFramework",
+    "inverse" : "24",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "associatedRegulatoryFramework",
+      "undefined" : "has regulatory framework"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Relates a medical device to the European regulation under which it is classified."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#eventDate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "eventDate",
+      "undefined" : "event date"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The date on which the incident actually occurred."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isDeviceTypeOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isDeviceTypeOf",
+      "undefined" : "is device type of"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates a device type to the medical device classified under it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#intendedPurpose",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "intendedPurpose",
+      "undefined" : "intended purpose"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "The intended use of the medical device as specified by the manufacturer in the technical documentation."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "31"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "17",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "29",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "29",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "29",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "29",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "29",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "29",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "29",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#correctiveActionTaken",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "correctiveActionTaken",
+      "undefined" : "corrective action taken"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Indicates whether a field safety corrective action was initiated in response to this incident."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#scope",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "scope",
+      "undefined" : "scope"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "A description of the scope of the field safety corrective action, including affected lot numbers or device ranges."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#affectedDeviceType",
+    "inverse" : "68",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "affectedDeviceType",
+      "undefined" : "affects device type"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to the type of device it typically affects according to IMDRF classification."
+    },
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#eudamedIncidentRef",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "eudamedIncidentRef",
+      "undefined" : "EUDAMED incident reference"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The unique reference number assigned to the incident report in the EUDAMED database."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "70"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "1",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "35",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "35",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#reportedBy",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "reportedBy",
+      "undefined" : "reported by"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Relates an incident to the manufacturer that submitted the report to the competent authority."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#fscaDescription",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "fscaDescription",
+      "undefined" : "FSCA description"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "A detailed description of the field safety corrective action taken and its expected outcome."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#manufacturerName",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "manufacturerName",
+      "undefined" : "manufacturer name"
+    },
+    "cardinality" : "1",
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The registered legal name of the manufacturer as recorded in EUDAMED."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#hasDeviceType",
+    "inverse" : "30",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasDeviceType",
+      "undefined" : "has device type"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Relates a medical device to its functional and structural device type classification."
+    },
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedSeverity",
+    "inverse" : "94",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "associatedSeverity",
+      "undefined" : "has severity"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to its severity level indicating the degree of potential harm."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#deviceName",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "deviceName",
+      "undefined" : "device name"
+    },
+    "cardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "The commercial name of the medical device as registered in EUDAMED."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isTriggeredBy",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isTriggeredBy",
+      "undefined" : "is triggered by"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "Relates a field safety corrective action to the incident that caused it."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#devicesAffected",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "devicesAffected",
+      "undefined" : "devices affected"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The number or description of devices affected by the field safety corrective action."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isRiskOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isRiskOf",
+      "undefined" : "is risk of"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to the incident it is associated with."
+    },
+    "attributes" : [ "object" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#countriesAffected",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "countriesAffected",
+      "undefined" : "countries affected"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The list of countries in which the field safety corrective action has been implemented."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#incidentDescription",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "incidentDescription",
+      "undefined" : "incident description"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "A detailed narrative description of the incident, including the device involved and the clinical context."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isIncidentOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isIncidentOf",
+      "undefined" : "is incident of"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Relates an incident to the medical device it was reported against."
+    },
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#riskName",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "riskName",
+      "undefined" : "risk name"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "The human-readable name of the risk as defined in the IMDRF nomenclature."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#outcome",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "outcome",
+      "undefined" : "outcome"
+    },
+    "cardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "A description of the clinical outcome or consequence of the incident for the patient or user."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isIVD",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "isIVD",
+      "undefined" : "is in vitro diagnostic"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Indicates whether the device is classified as an in vitro diagnostic device under IVDR."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isActionTypeOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "isActionTypeOf",
+      "undefined" : "is action type of"
+    },
+    "domain" : "51",
+    "comment" : {
+      "undefined" : "Relates an action type to the FSCA it classifies."
+    },
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#eudamedFSCARef",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "eudamedFSCARef",
+      "undefined" : "EUDAMED FSCA reference"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The unique reference number assigned to the field safety corrective action in the EUDAMED database."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#countryReported",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "countryReported",
+      "undefined" : "country reported"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The EU member state in which the incident was reported to the competent authority."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isAffectedDeviceTypeOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "isAffectedDeviceTypeOf",
+      "undefined" : "is affected device type of"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates a device type to the risk that affects it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#imdrfCode",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "imdrfCode",
+      "undefined" : "IMDRF code"
+    },
+    "cardinality" : "1",
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "The alphanumeric code assigned to the risk according to the IMDRF terminology for adverse event coding."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedRiskClass",
+    "inverse" : "131",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "associatedRiskClass",
+      "undefined" : "has risk class"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Relates a medical device to its regulatory risk classification under MDR or IVDR."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#detectionDate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "detectionDate",
+      "undefined" : "detection date"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The date on which the incident or device malfunction was first detected."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#closureDate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "closureDate",
+      "undefined" : "closure date"
+    },
+    "maxCardinality" : "1",
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The date on which the field safety corrective action was completed and verified."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "134"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "43",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "43",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#eudamedSRN",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "eudamedSRN",
+      "undefined" : "EUDAMED single registration number"
+    },
+    "cardinality" : "1",
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The unique single registration number assigned to the manufacturer upon registration in EUDAMED."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#hasFSCA",
+    "inverse" : "104",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasFSCA",
+      "undefined" : "has field safety corrective action"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Relates an incident to the field safety corrective action issued in response to it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "142"
+  }, {
+    "range" : "43",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedRiskType",
+    "inverse" : "146",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "associatedRiskType",
+      "undefined" : "has risk type"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to its specific IMDRF risk mechanism type."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isSeverityOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "isSeverityOf",
+      "undefined" : "is severity of"
+    },
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "Relates a severity level to the risk it describes."
+    },
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isRiskCategoryOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "isRiskCategoryOf",
+      "undefined" : "is risk category of"
+    },
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "Relates a risk category to the risk it classifies."
+    },
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "range" : "9",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "43",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "43",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isImplantable",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "isImplantable",
+      "undefined" : "is implantable"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Indicates whether the device is intended to be totally or partially implanted in the human body."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedActionType",
+    "inverse" : "121",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "associatedActionType",
+      "undefined" : "has action type"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "Relates a field safety corrective action to its type of intervention."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#actionDate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "actionDate",
+      "undefined" : "action date"
+    },
+    "cardinality" : "1",
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The date on which the field safety corrective action was initiated by the manufacturer."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#patientAge",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "patientAge",
+      "undefined" : "patient age"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The age in years of the patient involved in the incident at the time of the event."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isIncidentTypeOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isIncidentTypeOf",
+      "undefined" : "is incident type of"
+    },
+    "domain" : "83",
+    "comment" : {
+      "undefined" : "Relates an incident type to the incident it classifies."
+    },
+    "attributes" : [ "object" ],
+    "id" : "165"
+  }, {
+    "domain" : "127",
+    "range" : "127",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "50",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "0",
+    "range" : "0",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "52",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "89",
+    "range" : "89",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "51",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "144",
+    "range" : "144",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "47",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "74",
+    "range" : "74",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "46",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "42",
+    "range" : "42",
+    "id" : "171",
+    "label" : {
+      "IRI-based" : "49",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "106",
+    "range" : "106",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "48",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "3",
+    "range" : "3",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "43",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "53",
+    "range" : "53",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "42",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "34",
+    "range" : "34",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "45",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "101",
+    "range" : "101",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "44",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#competentAuthority",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "competentAuthority",
+      "undefined" : "competent authority"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The national regulatory authority responsible for supervising the manufacturer."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "177"
+  }, {
+    "domain" : "55",
+    "range" : "55",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "41",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedRiskCategory",
+    "inverse" : "147",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "associatedRiskCategory",
+      "undefined" : "has risk category"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to its high-level IMDRF hazard category."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "180"
+  }, {
+    "domain" : "28",
+    "range" : "28",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "40",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#country",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "country",
+      "undefined" : "country"
+    },
+    "cardinality" : "1",
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The country where the manufacturer's registered office is located."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "182"
+  }, {
+    "domain" : "57",
+    "range" : "57",
+    "id" : "184",
+    "label" : {
+      "IRI-based" : "39",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "41",
+    "range" : "41",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "45",
+    "range" : "45",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "47",
+    "range" : "47",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "38",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "49",
+    "range" : "49",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isManufacturedBy",
+    "inverse" : "190",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "isManufacturedBy",
+      "undefined" : "is manufactured by"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Relates a medical device to its registered manufacturer in EUDAMED."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "189"
+  }, {
+    "domain" : "8",
+    "range" : "8",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "13",
+    "range" : "13",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "33",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "50",
+    "range" : "50",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "72",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#udiDI",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "udiDI",
+      "undefined" : "UDI device identifier"
+    },
+    "cardinality" : "1",
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "The unique device identifier at device level assigned to a medical device under MDR or IVDR."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "195"
+  }, {
+    "domain" : "95",
+    "range" : "95",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "71",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isRegulatoryFrameworkOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isRegulatoryFrameworkOf",
+      "undefined" : "is regulatory framework of"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Relates a regulatory framework to the medical device regulated under it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "domain" : "11",
+    "range" : "11",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "74",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "58",
+    "range" : "58",
+    "id" : "198",
+    "label" : {
+      "IRI-based" : "73",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "139",
+    "range" : "139",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "70",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedProbability",
+    "inverse" : "201",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "associatedProbability",
+      "undefined" : "has probability"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "Relates a risk to its probability level indicating the likelihood of occurrence."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#hasReportedIncident",
+    "inverse" : "82",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasReportedIncident",
+      "undefined" : "has reported incident"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Relates a manufacturer to an incident it has reported to the competent authority."
+    },
+    "attributes" : [ "object" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#authorizationNumber",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "authorizationNumber",
+      "undefined" : "authorization number"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The national authorization number assigned to the manufacturer by the competent authority."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#manufactures",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "manufactures",
+      "undefined" : "manufactures"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Relates a manufacturer to a medical device it is responsible for."
+    },
+    "attributes" : [ "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isProbabilityOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "isProbabilityOf",
+      "undefined" : "is probability of"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates a probability level to the risk it describes."
+    },
+    "attributes" : [ "object" ],
+    "id" : "201"
+  }, {
+    "domain" : "151",
+    "range" : "151",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "69",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "6",
+    "range" : "6",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "68",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isReusable",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "isReusable",
+      "undefined" : "is reusable"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Indicates whether the device is intended to be used on more than one individual or procedure."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "208"
+  }, {
+    "domain" : "77",
+    "range" : "77",
+    "id" : "209",
+    "label" : {
+      "IRI-based" : "65",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isRiskClassOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isRiskClassOf",
+      "undefined" : "is risk class of"
+    },
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "Relates a risk class to the medical device it is assigned to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "131"
+  }, {
+    "domain" : "100",
+    "range" : "100",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "64",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "84",
+    "range" : "84",
+    "id" : "211",
+    "label" : {
+      "IRI-based" : "67",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "79",
+    "range" : "79",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "66",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "73",
+    "range" : "73",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "61",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "97",
+    "range" : "97",
+    "id" : "214",
+    "label" : {
+      "IRI-based" : "60",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "86",
+    "range" : "86",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "63",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "16",
+    "range" : "16",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "62",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#patientSex",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "patientSex",
+      "undefined" : "patient sex"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The biological sex of the patient involved in the incident."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "217"
+  }, {
+    "domain" : "99",
+    "range" : "99",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "58",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "149",
+    "range" : "149",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "57",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "96",
+    "range" : "96",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "59",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "21",
+    "range" : "21",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "54",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "37",
+    "range" : "37",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "53",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "60",
+    "range" : "60",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "56",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "15",
+    "range" : "15",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "55",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "75",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "75",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isRiskTypeOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "isRiskTypeOf",
+      "undefined" : "is risk type of"
+    },
+    "domain" : "75",
+    "comment" : {
+      "undefined" : "Relates a risk type to the risk it characterises."
+    },
+    "attributes" : [ "object" ],
+    "id" : "146"
+  }, {
+    "range" : "75",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "75",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "75",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "75",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isStatusOf",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "isStatusOf",
+      "undefined" : "is status of"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Relates a status to the FSCA it describes."
+    },
+    "attributes" : [ "object" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#isActive",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "isActive",
+      "undefined" : "is active"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Indicates whether the device requires an external energy source to operate."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedIncidentType",
+    "inverse" : "165",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "associatedIncidentType",
+      "undefined" : "has incident type"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Relates an incident to its classification as serious or near-miss."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "235"
+  }, {
+    "range" : "75",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "75",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "75",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "75",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "51",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#hasRisk",
+    "inverse" : "109",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasRisk",
+      "undefined" : "has risk"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "Relates an incident to the IMDRF risk associated with the reported event."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "51",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "83",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "83",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#associatedStatus",
+    "inverse" : "233",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "associatedStatus",
+      "undefined" : "has status"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "Relates a field safety corrective action to its current open or closed status."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "51",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#hasIncident",
+    "inverse" : "114",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasIncident",
+      "undefined" : "has incident"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Relates a medical device to a reported serious incident or near-miss event."
+    },
+    "attributes" : [ "object" ],
+    "id" : "249"
+  }, {
+    "domain" : "59",
+    "range" : "59",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "79",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#reportDate",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "reportDate",
+      "undefined" : "report date"
+    },
+    "cardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "The date on which the incident was formally reported to the competent authority."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "251"
+  }, {
+    "domain" : "85",
+    "range" : "85",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "76",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "81",
+    "range" : "81",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "75",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#contactEmail",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "contactEmail",
+      "undefined" : "contact email"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The official regulatory contact email address of the manufacturer."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "254"
+  }, {
+    "domain" : "98",
+    "range" : "98",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "78",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://example.org/eudamed-ontology#riskDescription",
+    "baseIri" : "http://example.org/eudamed-ontology",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "riskDescription",
+      "undefined" : "risk description"
+    },
+    "domain" : "67",
+    "comment" : {
+      "undefined" : "A detailed description of the risk mechanism and its potential consequences for patients or users."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "256"
+  }, {
+    "domain" : "19",
+    "range" : "19",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "77",
+      "undefined" : "is a"
+    }
+  } ]
+}
